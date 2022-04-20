@@ -1,0 +1,79 @@
+
+Below are list of Tables/Vertex  and their various data types that I used to create and Connect the application Tigergraph Cloud Database 
+
+
+
+Application Name: Women Tech. Connect
+
+Vertex: users
+
+primary id: email (string)
+password: string
+fullname string
+photo string
+timer string
+points string
+posts string
+comments string
+uid string
+
+
+
+
+vertex: posts
+
+primary id: id (int)
+title  string
+title_seo string
+content string
+userid string
+fullname string
+userphoto string
+points string
+help_category string
+offering string
+total_comments string
+data_type string
+timer string
+video string
+photo string
+email string
+address string
+latitude string
+longitude string
+
+
+
+
+
+vertex: notification
+
+primary id: id (int)
+post_id  string
+userid string
+fullname string
+photo string
+reciever_id string
+status string
+data_type string
+timing string
+title string 
+title_seo string
+
+
+
+
+vertex: comments
+
+primary id: id (int)
+postid string
+comment string
+timer string
+userid string
+fullname string
+photo string
+
+
+
+
+
